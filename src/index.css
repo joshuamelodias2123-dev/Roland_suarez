@@ -1,0 +1,58 @@
+:root {
+  --pine: #1F3A34;
+  --sage: #7A9B8E;
+  --clay: #C97B5A;
+  --linen: #F2EDE4;
+  --charcoal: #2A2A28;
+  --sage-tint: #E4ECE7;
+  --clay-tint: #F3DFD4;
+  --serif: 'Fraunces', Georgia, serif;
+  --sans: 'Inter', -apple-system, system-ui, sans-serif;
+
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--sans);
+  color: var(--charcoal);
+  background: var(--linen);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--serif);
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+p {
+  max-width: 62ch;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
